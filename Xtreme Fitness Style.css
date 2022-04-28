@@ -1,0 +1,3186 @@
+/*Scroll Behavior CSS Starts here*/
+html{
+  scroll-behavior: smooth;
+}
+/*Scroll Behavior CSS Ends here*/
+
+/*Body Part Default Setting*/
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow-X: hidden;
+}
+/*Body Part Default Setting*/
+
+/*Custom Scrollbar CSS Starts Here*/
+::-webkit-scrollbar{
+  width: 12px;
+
+}
+::-webkit-scrollbar-track{
+  background-color: #E4E4E4;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #fbd803;
+  height: 20%;
+  border-radius: 20px;
+}
+/*Custom Scrollbar CSS Ends Here*/
+
+/*Universal Margin CSS */
+.uni-margin{
+  margin: 0 7%;
+}
+/*Universal Margin CSS */
+
+/*font-family: 'Open Sans', sans-serif;*/
+/*Header Part CSS Style Starts Here*/
+.header{
+  width: 100%;
+  height: 50px;
+  background-color: #fbd802;
+  box-shadow: 0 7px 7px #cfcccd;
+
+}
+.Header-container{
+  height: 50px;
+}
+
+.home-icon{
+  font-size: 20px;
+}
+.p1{
+  width: 200px;
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.p2{
+  width: 200px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.calender-icon{
+  font-size: 20px;
+}
+.icon{
+  font-size: 20px;
+  margin-left: 10px;
+  color: #000;
+}
+.social-media{
+  width: 250px;
+  display: inline-block;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 200px;
+}
+.social-media .fa-facebook-f:hover{
+  color: #1877F2;
+  -webkit-transition:color 0.5s;
+}
+.social-media .fa-google-plus-g:hover{
+  color: #D6493D;
+  -webkit-transition:color 0.5s;
+}
+.social-media .fa-twitter:hover{
+  color: #0189BD;
+  -webkit-transition:color 0.5s;
+}
+.social-media .fa-instagram:hover{
+  color: #CB105E;
+  -webkit-transition:color 0.5s;
+}
+
+.login{
+  width: 40px;
+  display: inline-block;
+  margin-left: 50px;
+}
+.signup{
+  width: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.login a{
+  color: #000000;
+  text-decoration: none;
+  margin-left: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.signup a{
+  color: #000000;
+  text-decoration: none;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.login a:hover{
+  text-decoration: underline;
+}
+.signup a:hover{
+  text-decoration: underline;
+}
+/*Header Part CSS Style Ends Here*/
+/*Navigation Part CSS Style Starts Here*/
+
+.navigation-bar-container{
+  height: 105px;
+
+}
+
+.logo{
+  display: inline-block;
+  float: left;
+  margin-bottom: 10px;
+}
+.navigation{
+  display: inline-block;
+  float: left;
+  width: 620px;
+  margin: auto;
+  margin-left: 180px;
+  margin-bottom: 100px;
+  margin-top: 25px;
+}
+ul{
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  border-radius: 12px;
+
+}
+
+ul li:hover{
+  background-color: #fbd803;
+  -webkit-transition:background-color 0.6s;
+
+}
+
+ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+
+}
+
+.search-icon{
+  width: 50px;
+  margin-top: 55px;
+  float: right;
+  margin-left: 90px;
+  font-size: 23px;
+
+}
+.search-icon a{
+  color: #929390;
+}
+/*Navigation Part CSS Style Ends Here*/
+/*Banner Part CSS Style Starts Here*/
+.web-banner-container{
+  width: 100%;
+  height: 90vh;
+  background-image: url('image/WebBanner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+}
+
+.fuel-your{
+  font-size: 50px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 7px;
+  word-spacing: 25px;
+  position: absolute;
+  top: 23%;
+  left: 39%;
+}
+.body-fitness{
+  font-size: 78px;
+  -webkit-text-stroke:3px #fbd802;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 9.7px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  padding: 0;
+  transform: translate(-47%,-50%);
+}
+.be-one-of-us{
+  color: #fbd802;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  position: absolute;
+  left: 41.7%;
+  bottom: 18%;
+}
+/*Banner Part CSS Style Ends Here*/
+
+/*About Us Part CSS Style Starts Here*/
+.about-us-container{
+  height: 650px;
+  position: relative;
+}
+.about-us-main-container{
+  height: 480px;
+}
+.welcome-to{
+  color: #fbd802;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+}
+.xtreme-fitness{
+  color: #000000;
+  text-align: center;
+  font-size: 47px;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+.youtube-video{
+  border: 10px solid #fbd802;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px #b0acad;
+}
+
+.about-us{
+  width: 45%;
+  height: 300px;
+  float: right;
+  text-align: justify;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  position: relative;
+}
+
+.btn-read-more{
+  width: 100px;
+  background-color: #fbd802;
+  padding: 5px 8px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 7px 5px #d6d4d5;
+  cursor: pointer;
+}
+.company-owner-name{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  width: 400px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 20px;
+  position: absolute;
+
+
+
+}
+
+.designation{
+  font-size: 20px;
+  word-spacing: 7px;
+}
+
+.signature{
+  font-size: 30px;
+  text-align: right;
+  margin-left: 100px;
+  margin-top: 70px;
+  font-weight: bold;
+  word-spacing: 10px;
+  position: absolute;
+  right:10%;
+  bottom: 7%;
+  transform:rotate(-12deg);
+
+
+}
+
+/*About Us Part CSS Style Ends Here*/
+.our-services-container{
+  width: 100%;
+  height: 1300px;
+}
+.our-services{
+  text-align: center;
+  word-spacing: 12px;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fbd802;
+}
+.what-we-do{
+  text-align: center;
+  word-spacing: 10px;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+.our-services-description{
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.company-services-3{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.img-services1,.img-services2,.img-services3{
+  display: block;
+  border-radius: 10px;
+}
+
+.services1{
+  width: 220px;
+  height: 250px;
+  margin: 20px;
+  position: relative;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px #b4b1b1;
+}
+.services2{
+  width: 220px;
+  height: 250px;
+  margin: 20px;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 5px 8px 5px #b4b1b1;
+}
+.services3{
+  width: 220px;
+  height: 250px;
+  margin: 20px;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 5px 8px 5px #b4b1b1;
+}
+
+.trainning-name-1{
+  width: 220px;
+  color:#ffffff;
+  position:absolute;
+  bottom:-16px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+  text-align: center;
+  opacity: 0.8;
+  border-radius: 5px;
+  font-size: 13px;
+  word-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.trainning-name-2{
+  width: 220px;
+  color:#ffffff;
+  position:absolute;
+  bottom:-16px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+  text-align: center;
+  opacity: 0.8;
+  border-radius: 5px;
+  word-spacing: 5px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.trainning-name-3{
+  width: 220px;
+  color:#ffffff;
+  position:absolute;
+  bottom:-16px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+  text-align: center;
+  opacity: 0.8;
+  border-radius: 5px;
+  word-spacing: 5px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.register-now{
+  width: 110px;
+  height: 20px;
+  background-color: #fbd803;
+  text-align: center;
+  padding:6px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  position: absolute;
+  top: -15px;
+  right: -3px;
+  opacity: 0.8;
+}
+
+.link-register-now1{
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.link-register-now1:hover{
+  text-decoration: underline;
+}
+.link-register-now2{
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.link-register-now2:hover{
+  text-decoration: underline;
+}
+.link-register-now3{
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.link-register-now3:hover{
+  text-decoration: underline;
+}
+.table-data-1,
+.table-data-2,
+.table-data-3,
+.table-data-4,
+.table-data-5,
+.table-data-6{
+  width: 100px;
+  height: 50px;
+  background-color: #fbd802;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.table-image1{
+  background-image: url('image/Gym-Selfie.jpg');
+  background-repeat: no-repeat;
+  background-size: 210px 230px;
+}
+.table-image2{
+  background-image: url('image/SF_FEB19_Blog_DIA_12.jpg');
+  background-repeat: no-repeat;
+  background-size: 210px 230px;
+}
+.table-image3{
+  background-image: url('image/The-Power-of-Golds-Gym.jpg');
+  background-repeat: no-repeat;
+  background-size: 210px 230px;
+}
+.table-image4{
+  background-image: url('image/7680c65526397ce129e200d2823c34fe51e988d0_November_banner_27.jpg');
+  background-repeat: no-repeat;
+  background-size: 210px 230px;
+}
+.table-image5{
+  background-image: url('image/unnamed (1).jpg');
+  background-repeat: no-repeat;
+  background-size: 210px 230px;
+}
+.table-image6{
+  background-image: url('image/20170808_121556.jpg');
+  background-repeat: no-repeat;
+  background-size: 210px 230px;
+}
+
+.company-value{
+  height: 50px;
+  border: none;
+}
+.company-value-table{
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  border: none;
+}
+/*Our Services Part CSS Style Ends Here*/
+/*Our Popular Classes Part CSS Starts Here*/
+
+.choose-your{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #fbd803;
+  word-spacing: 10px;
+  font-size: 25px;
+}
+.our-popular-classes{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  word-spacing: 10px;
+}
+.our-popular-class-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Popular Class 1 CSS Style Starts Here*/
+
+.popular-class-1{
+  width: 220px;
+  height: 640px;
+  margin: 35px;
+}
+.popular-class-image-1{
+  width: 220px;
+  height: 180px;
+}
+.image-1{
+  width: 220px;
+  height: 180px;
+}
+.bodybuilding-heading{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.let-to-loss-weight{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 5px;
+
+}
+.fa-star{
+  color: #fbd803;
+  font-size: 15px;
+}
+.star{
+  color: #9a9595;
+  font-size: 15px;
+}
+.star-rating-1{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bodybuilding-description{
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.class-time-table-container-1{
+  background-color: #fbd803;
+  width: 220px;
+  height: 53px;
+  position: relative;
+}
+.classstudent-10pershift-1{
+  width: 110px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.classtime-10am11am-1{
+  width: 110px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.vertical-rullar-1{
+  border-left: 1px solid #000000;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+/*Popular Class 1 CSS Style Ends Here*/
+
+/*Popular Class 2 CSS Style Starts Here*/
+.popular-class-2{
+  width: 220px;
+  height: 640px;
+  margin: 35px;
+}
+.popular-class-image-2{
+  width: 220px;
+  height: 180px;
+}
+.image-2{
+  width: 220px;
+  height: 180px;
+}
+.cycling-cardio{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 5px;
+}
+.cardio-heading{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.fa-star{
+  color: #fbd803;
+  font-size: 15px;
+}
+.star{
+  color: #9a9595;
+  font-size: 15px;
+}
+.star-rating-2{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cardio-trainning-description{
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.class-time-table-container-2{
+  background-color: #fbd803;
+  width: 220px;
+  height: 53px;
+  position: relative;
+}
+.classstudent-10pershift-2{
+  width: 110px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.classtime-12am1pm-2{
+  width: 110px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.vertical-rullar-2{
+  border-left: 1px solid #000000;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+/*Popular Class 2 CSS Style Ends Here*/
+
+
+/*Popular Class 3 CSS Style Starts Here*/
+.popular-class-3{
+  width: 220px;
+  height: 640px;
+  margin: 35px;
+}
+.popular-class-image-3{
+  width: 220px;
+  height: 180px;
+}
+.image-3{
+  width: 220px;
+  height: 180px;
+}
+.yoga-meditation{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 5px;
+}
+.yoga-heading{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.fa-star{
+  color: #fbd803;
+  font-size: 15px;
+}
+.star{
+  color: #9a9595;
+  font-size: 15px;
+}
+.star-rating-3{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.yoga-trainning-description{
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.class-time-table-container-3{
+  background-color: #fbd803;
+  width: 220px;
+  height: 53px;
+  position: relative;
+}
+.classstudent-15pershift-3{
+  width: 110px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.classtime-8am9am-3{
+  width: 110px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.vertical-rullar-3{
+    border-left: 1px solid #000000;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+/*Popular Class 3 CSS Style Ends Here*/
+/*Our Popular Classes Part CSS Ends Here*/
+/*Trainer Part CSS Starts Here*/
+.whos-our-trainer{
+  text-align: center;
+  word-spacing: 12px;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fbd802;
+}
+.meet-our-expert-trainers{
+  text-align: center;
+  word-spacing: 10px;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+.our-expert-trainers-description{
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.expert-trainer-panel-3{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/*Trainer1 Box CSS Style Starts Here*/
+.img-trainer1{
+  display: block;
+  border-radius: 8px;
+
+}
+.trainer1{
+  width: 220px;
+  height: 270px;
+  margin: 20px;
+  position: relative;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  box-shadow: 3px 7px 5px #b3b0b0;
+}
+
+.trainer-name1{
+  word-spacing: -2px;
+}
+
+.trainer-information-1{
+  width: 220px;
+  height: 100px;
+  color:#000000;
+  position:absolute;
+  bottom:-17px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  background-color: #fbd802;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 12px;
+  word-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+.trainer-name1{
+  font-size: 15.8px;
+
+}
+.social-media-connect-1{
+  width: 120px;
+  height: 40px;
+  opacity: 0.5;
+  text-align: center;
+  background-color: #fbd803;
+  position: absolute;
+  top: -17px;
+  right: 0;
+  border-radius: 12px;
+
+}
+.trainer-facebook-account,
+.trainer-twitter-account,
+.trainer-instagram-account{
+  display: inline-block;
+  margin-top: 12px;
+  padding-left: 5px;
+  font-size: 23px;
+
+}
+
+.trainer-facebook-account a{
+  color: #000000;
+}
+.trainer-facebook-account a:hover{
+  color: #1873EB;
+}
+
+.trainer-twitter-account a{
+  color: #000000;
+}
+.trainer-twitter-account a:hover{
+  color: #1C9CEA;
+}
+.trainer-instagram-account a{
+  color: #000000;
+}
+.trainer-instagram-account a:hover{
+  color: #DF3E41;
+}
+/*Trainer1 Box CSS Style Ends Here*/
+
+/*Trainer2 Box CSS Style Starts Here*/
+.img-trainer2{
+  display: block;
+  border-radius: 8px;
+
+}
+.trainer2{
+  width: 220px;
+  height: 270px;
+  margin: 20px;
+  position: relative;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  box-shadow: 3px 7px 5px #b3b0b0;
+
+}
+.trainer-name2{
+  word-spacing: -2px;
+}
+.trainer-information-2{
+  width: 220px;
+  height: 100px;
+  color:#000000;
+  position:absolute;
+  bottom:-17px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  background-color: #fbd802;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 12px;
+  word-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.trainer-name2{
+  font-size: 15.8px;
+}
+.social-media-connect-2{
+  width: 120px;
+  height: 40px;
+  opacity: 0.5;
+  text-align: center;
+  background-color: #fbd803;
+  position: absolute;
+  top: -17px;
+  right: 0;
+  border-radius: 12px;
+
+}
+.trainer-facebook-account,
+.trainer-twitter-account,
+.trainer-instagram-account{
+  display: inline-block;
+  margin-top: 12px;
+  padding-left: 5px;
+  font-size: 23px;
+
+}
+
+.trainer-facebook-account a{
+  color: #000000;
+}
+.trainer-facebook-account a:hover{
+  color: #1873EB;
+}
+
+.trainer-twitter-account a{
+  color: #000000;
+}
+.trainer-twitter-account a:hover{
+  color: #1C9CEA;
+}
+.trainer-instagram-account a{
+  color: #000000;
+}
+.trainer-instagram-account a:hover{
+  color: #DF3E41;
+}
+/*Trainer2 Box CSS Style Ends Here*/
+
+/*Trainer3 Box CSS Style Starts Here*/
+.img-trainer3{
+  display: block;
+  border-radius: 8px;
+
+}
+.trainer3{
+  width: 220px;
+  height: 270px;
+  margin: 20px;
+  position: relative;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  box-shadow: 3px 7px 5px #b3b0b0;
+
+}
+.trainer-name3{
+  word-spacing: -2px;
+}
+.trainer-information-3{
+  width: 220px;
+  height: 100px;
+  color:#000000;
+  position:absolute;
+  bottom:-17px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  background-color: #fbd802;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 12px;
+  word-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.trainer-name3{
+  font-size: 15.8px;
+}
+.social-media-connect-3{
+  width: 120px;
+  height: 40px;
+  opacity: 0.5;
+  text-align: center;
+  background-color: #fbd803;
+  position: absolute;
+  top: -17px;
+  right: 0;
+  border-radius: 12px;
+
+}
+.trainer-facebook-account,
+.trainer-twitter-account,
+.trainer-instagram-account{
+  display: inline-block;
+  margin-top: 12px;
+  padding-left: 5px;
+  font-size: 23px;
+
+}
+
+.trainer-facebook-account a{
+  color: #000000;
+}
+.trainer-facebook-account a:hover{
+  color: #1873EB;
+}
+
+.trainer-twitter-account a{
+  color: #000000;
+}
+.trainer-twitter-account a:hover{
+  color: #1C9CEA;
+}
+.trainer-instagram-account a{
+  color: #000000;
+}
+.trainer-instagram-account a:hover{
+  color: #DF3E41;
+}
+/*Trainer3 Box CSS Style Ends Here*/
+
+
+/*Trainer4 Box CSS Style Ends Here*/
+.expert-trainer-panel-4{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-trainer4{
+  display: block;
+  border-radius: 8px;
+
+}
+.trainer4{
+  width: 220px;
+  height: 270px;
+  margin: 20px;
+  position: relative;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  box-shadow: 3px 7px 5px #b3b0b0;
+
+}
+.trainer-name4{
+  word-spacing: -2px;
+}
+.trainer-information-4{
+  width: 220px;
+  height: 100px;
+  color:#000000;
+  position:absolute;
+  bottom:-17px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  background-color: #fbd802;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 12px;
+  word-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.trainer-name4{
+  font-size: 15.8px;
+}
+.social-media-connect-4{
+  width: 120px;
+  height: 40px;
+  opacity: 0.5;
+  text-align: center;
+  background-color: #fbd803;
+  position: absolute;
+  top: -17px;
+  right: 0;
+  border-radius: 12px;
+
+}
+.trainer-facebook-account,
+.trainer-twitter-account,
+.trainer-instagram-account{
+  display: inline-block;
+  margin-top: 12px;
+  padding-left: 5px;
+  font-size: 23px;
+
+}
+
+.trainer-facebook-account a{
+  color: #000000;
+}
+.trainer-facebook-account a:hover{
+  color: #1873EB;
+}
+
+.trainer-twitter-account a{
+  color: #000000;
+}
+.trainer-twitter-account a:hover{
+  color: #1C9CEA;
+}
+.trainer-instagram-account a{
+  color: #000000;
+}
+.trainer-instagram-account a:hover{
+  color: #DF3E41;
+}
+/*Trainer4 Box CSS Style Ends Here*/
+/*Trainer5 Box CSS Style Starts Here*/
+
+.expert-trainer-panel-4{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-trainer5{
+  display: block;
+  border-radius: 8px;
+
+}
+.trainer5{
+  width: 220px;
+  height: 270px;
+  margin: 20px;
+  position: relative;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  box-shadow: 3px 7px 5px #b3b0b0;
+
+}
+.trainer-name5{
+  word-spacing: -2px;
+}
+.trainer-information-5{
+  width: 220px;
+  height: 100px;
+  color:#000000;
+  position:absolute;
+  bottom:-17px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  background-color: #fbd802;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 12px;
+  word-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.trainer-name5{
+  font-size: 15.8px;
+}
+.social-media-connect-5{
+  width: 120px;
+  height: 40px;
+  opacity: 0.5;
+  text-align: center;
+  background-color: #fbd803;
+  position: absolute;
+  top: -17px;
+  right: 0;
+  border-radius: 12px;
+
+}
+.trainer-facebook-account,
+.trainer-twitter-account,
+.trainer-instagram-account{
+  display: inline-block;
+  margin-top: 12px;
+  padding-left: 5px;
+  font-size: 23px;
+
+}
+
+.trainer-facebook-account a{
+  color: #000000;
+}
+.trainer-facebook-account a:hover{
+  color: #1873EB;
+}
+
+.trainer-twitter-account a{
+  color: #000000;
+}
+.trainer-twitter-account a:hover{
+  color: #1C9CEA;
+}
+.trainer-instagram-account a{
+  color: #000000;
+}
+.trainer-instagram-account a:hover{
+  color: #DF3E41;
+}
+/*Trainer5 Box CSS Style Ends Here*/
+/*Trainer6 Box CSS Style Starts Here*/
+
+.expert-trainer-panel-4{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-trainer6{
+  display: block;
+  border-radius: 8px;
+
+}
+.trainer6{
+  width: 220px;
+  height: 270px;
+  margin: 20px;
+  position: relative;
+  border-right:7px solid #fbd802;
+  border-bottom:7px solid #fbd802;
+  border-radius: 10px;
+  box-shadow: 3px 7px 5px #b3b0b0;
+
+}
+.trainer-name6{
+  word-spacing: -2px;
+}
+.trainer-information-6{
+  width: 220px;
+  height: 100px;
+  color:#000000;
+  position:absolute;
+  bottom:-17px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  background-color: #fbd802;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 12px;
+  word-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.trainer-name6{
+  font-size: 15.8px;
+}
+.social-media-connect-6{
+  width: 120px;
+  height: 40px;
+  opacity: 0.5;
+  text-align: center;
+  background-color: #fbd803;
+  position: absolute;
+  top: -17px;
+  right: 0;
+  border-radius: 12px;
+
+}
+.trainer-facebook-account,
+.trainer-twitter-account,
+.trainer-instagram-account{
+  display: inline-block;
+  margin-top: 12px;
+  padding-left: 5px;
+  font-size: 23px;
+
+}
+
+.trainer-facebook-account a{
+  color: #000000;
+}
+.trainer-facebook-account a:hover{
+  color: #1873EB;
+}
+
+.trainer-twitter-account a{
+  color: #000000;
+}
+.trainer-twitter-account a:hover{
+  color: #1C9CEA;
+}
+.trainer-instagram-account a{
+  color: #000000;
+}
+.trainer-instagram-account a:hover{
+  color: #DF3E41;
+}
+/*Trainer6 Box CSS Style Ends Here*/
+/*Our Class Time Table Part CSS Starts Here*/
+
+/*Our Class Time Table Part CSS Ends Here*/
+.select-your-schedule{
+  text-align: center;
+  color: #fbd803;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+.our-class-time-table{
+  text-align: center;
+  color: #000000;
+  font-size: 33px;
+  font-family: 'Open Sans', sans-serif;
+}
+.schedule-btn{
+  width: 660px;
+  margin: auto;
+  text-align: center;
+}
+.bodybuilding-btn,
+.yoga-meditation-btn,
+.cardio-cycling-btn,
+.aerobic-crossfit-btn{
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  background-color: #fbd803;
+  color: #000000;
+  border-radius: 10px;
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 6px 5px #c8c5c6;
+}
+.month-btn{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.october-2020-btn{
+  width: 240px;
+  height: 40px;
+  font-size: 23px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: #fbd803;
+  color: #000000;
+  border-radius: 10px;
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 6px 5px #c8c5c6;
+}
+.view-more{
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.view-more-btn{
+  width: 140px;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #fbd803;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  box-shadow: 0 7px 5px #c8c5c6;
+}
+
+.color1{
+  background-color: #c9c6c6;
+}
+.color2{
+  background-color: #b5b4b4;
+}
+.color1, .color2{
+  padding: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.bodybuilding-image{
+  background-image: url('image/what-the-best-personal-trainers-know-that-you-dont-tall.jpg');
+  background-repeat: no-repeat;
+  background-size: 145px 360px;
+  opacity: 0.9;
+  word-wrap: break-word;
+  writing-mode:vertical-lr;
+  text-orientation:upright;
+  font-size: 10px;
+  text-align: center;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+}
+
+.color-yellow{
+  background-color: #fbd803;
+}
+.color-yellow, .color-white{
+  padding:5px;
+  font-size: 8.8px;
+  text-align: center;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.banner2{
+  width: 100%;
+  height: 90vh;
+  background-image: url('image/Artboard 1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: left center;
+  position: relative;
+  position: relative;
+}
+.bmi-calculator-container{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 195px;
+  right: 80px;
+}
+.calculate-your-bmi{
+  font-family: 'Open Sans', sans-serif;
+  color: #fbd803;
+  word-spacing: 14px;
+  font-size: 30px;
+
+}
+.input-field{
+  float: left;
+}
+.calculate-bmi{
+  width: 300px;
+  height: 200px;
+  float: right;
+}
+.first-table-data1{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+}
+.bmi-categories, .first-table-data{
+  text-align: right;
+  padding: 12px;
+
+}
+.bmi-categories{
+  background-color: #fbd803;
+}
+
+.first-table-data{
+  border: 1px solid #000000;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+
+}
+.bmi-categories{
+  border-collapse: collapse;
+}
+select{
+  width: 100px;
+  height: 33px;
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid #fbd803;
+  border-radius: 15px;
+  background: transparent;
+  outline:none;
+  margin-top: 15px;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+input[type=text]{
+  width: 90px;
+  height: 25px;
+  border: 2px solid #fbd803;
+  border-radius: 15px;
+  background: transparent;
+  outline:none;
+  font-size: 15px;
+  color: #fbd803;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+input[type=button]{
+  width:100px;
+  height: 29px;
+  outline: none;
+  border: 2px solid #fbd803;
+  border-radius: 15px;
+  background-color: #fbd803;
+  text-align: center;
+  font-size: 11px;
+  cursor: pointer;
+}
+/*Our Pricing Plan CSS Starts Here*/
+.select-your-plan{
+  color: #fbd803;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  word-spacing: 5px;
+}
+.our-pricing-plan{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 10px;
+}
+.our-pricing-plan-description{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/*Pricing Plan Total 3 CSS Code Starts Here*/
+/*Pricing Plan 1 CSS Starts Here*/
+.pricing-plan-heading-1{
+  width: 800px;
+  height: 30px;
+  background-color: #aba8a8;
+  margin: auto;
+}
+.membership1{
+  width: 200px;
+  height: 30px;
+  background-color: #aba8a8;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.programme1{
+  width: 400px;
+  height: 30px;
+  background-color: #aba8a8;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.price1{
+  width: 200px;
+  height: 30px;
+  background-color: #aba8a8;
+  float: right;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.pricing-plan-data1{
+  width: 800px;
+  height: 130px;
+  background-color: #aba8a8;
+  margin: auto;
+  box-sizing: border-box;
+}
+.partition1{
+  width:200px;
+  height: 130px;
+  background-color:#aba8a8;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  word-spacing: 10px;
+  font-weight: bold;
+  border-right: 3px solid #000000;
+
+}
+
+.partition2{
+  width: 400px;
+  height: 130px;
+  background-color:#aba8a8;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 10px;
+  word-spacing: 10px;
+  font-weight: bold;
+  border-right: 3px solid #000000;
+}
+.partition3{
+  width: 200px;
+  height: 130px;
+  background-color: #aba8a8;
+  float: right;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 12px;
+  word-spacing: 10px;
+  font-weight: bold;
+}
+.register-now1{
+  border: none;
+  outline-color: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 11px;
+  margin-left: 14px;
+  margin-top: 25px;
+}
+/*Pricing Plan 1 CSS Ends Here*/
+/*Pricing Plan 2 CSS Starts Here*/
+.pricing-plan-heading-2{
+  width: 800px;
+  height: 30px;
+  background-color: #000000;
+  margin: auto;
+}
+.membership2{
+  width: 200px;
+  height: 30px;
+  background-color: #000000;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+.programme2{
+  width: 400px;
+  height: 30px;
+  background-color: #000000;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+.price2{
+  width: 200px;
+  height: 30px;
+  background-color: #000000;
+  float: right;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+.pricing-plan-data2{
+  width: 800px;
+  height: 195px;
+  background-color: #aba8a8;
+  margin: auto;
+  box-sizing: border-box;
+}
+.partition1-1{
+  width:200px;
+  height: 195px;
+  background-color:#000000;
+  color: #ffffff;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 30px;
+  word-spacing: 10px;
+  border-right: 3px solid #ffffff;
+}
+
+.partition2-1{
+  width: 400px;
+  height: 195px;
+  background-color:#000000;
+  color: #ffffff;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 25px;
+  word-spacing: 10px;
+  border-right: 3px solid #ffffff;
+}
+.partition3-1{
+  width: 200px;
+  height: 195px;
+  background-color: #000000;
+  color: #ffffff;
+  float: right;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 50px;
+  word-spacing: 10px;
+}
+.register-now2{
+  border: none;
+  outline-color: none;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 11px;
+  margin-left: 14px;
+  margin-top: 25px;
+}
+/*Pricing Plan 2 CSS Ends Here*/
+/*Pricing Plan 3 CSS Starts Here*/
+.pricing-plan-heading-3{
+  width: 800px;
+  height: 30px;
+  background-color: #fbd803;
+  margin: auto;
+}
+.membership3{
+  width: 200px;
+  height: 30px;
+  background-color: #fbd803;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+}
+.programme3{
+  width: 400px;
+  height: 30px;
+  background-color: #fbd803;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+}
+.price3{
+  width: 200px;
+  height: 30px;
+  background-color: #fbd803;
+  float: right;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+}
+.pricing-plan-data3{
+  width: 800px;
+  height: 290px;
+  background-color: #aba8a8;
+  margin: auto;
+  box-sizing: border-box;
+}
+.partition1-2{
+  width:200px;
+  height: 290px;
+  background-color:#fbd803;
+  color: #000000;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 80px;
+  word-spacing: 10px;
+  font-weight: bold;
+  border-right: 3px solid #000000;
+}
+
+.partition2-2{
+  width: 400px;
+  height: 290px;
+  background-color:#fbd803;
+  color: #000000;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 10px;
+  word-spacing: 10px;
+  font-weight: bold;
+  border-right: 3px solid #000000;
+}
+.partition3-2{
+  width: 200px;
+  height: 290px;
+  background-color: #fbd803;
+  color: #000000;
+  float: right;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 70px;
+  word-spacing: 10px;
+  font-weight: bold;
+}
+.register-now3{
+  border: none;
+  outline-color: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 11px;
+  margin-left: 14px;
+  margin-top: 25px;
+}
+/*Pricing Plan 3 CSS Ends Here*/
+/*Pricing Plan Total 3 CSS Code Ends Here*/
+/*Our Blog News CSS Starts Here*/
+.latest-update{
+  text-align: center;
+  color: #fbd803;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.our-blog-news{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 10px;
+}
+/*Our 3 Blog News CSS Starts Here*/
+
+.our-3-blog-news-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Blog News 1 CSS Starts Here*/
+.blog-news-1{
+  width: 270px;
+  height: 415px;
+  background-color: #ffffff;
+  margin: 12px;
+  position: relative;
+}
+
+.love-react{
+  color: #7b7a7a;
+  margin-left: 95px;
+}
+
+.love-react-100{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.comment{
+  color: #7b7a7a;
+  margin-left: 10px;
+}
+.comment-95{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.share{
+  color: #7b7a7a;
+  margin-left: 10px;
+}
+.share-134{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.blog-news-date{
+  width: 70px;
+  height: 90px;
+  background-color: #000000;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 125px;
+  left: 10px;
+}
+.october-11th{
+  padding-top: 10px;
+}
+.runner-guide-to-the-gym-headding{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.runner-guide-to-the-gym-description{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  letter-spacing: -1px;
+  line-height: 15.8px;
+  font-weight: lighter;
+  padding: 0 2px 0 2px;
+}
+.read-more-1{
+  width: 90px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fbd803;
+  text-align: left;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  box-shadow: 0 7px 3px #d5d3d4;
+}
+
+/*Blog News 1 CSS Ends Here*/
+/*Blog News 2 CSS Starts Here*/
+.blog-news-2{
+  width: 270px;
+  height: 415px;
+  background-color: #ffffff;
+  margin: 12px;
+  position: relative;
+}
+
+.love-react{
+  color: #7b7a7a;
+  margin-left: 95px;
+}
+.love-react-100{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.comment{
+  color: #7b7a7a;
+  margin-left: 10px;
+}
+.comment-95{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.share{
+  color: #7b7a7a;
+  margin-left: 10px;
+}
+.share-134{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.blog-news-date2{
+  width: 70px;
+  height: 90px;
+  background-color: #000000;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 125px;
+  left: 10px;
+}
+.october-13th{
+  padding-top: 10px;
+}
+.low-carb-or-low-fat{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.low-carb-or-low-fat-description{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  letter-spacing: -1px;
+  line-height: 15.8px;
+  font-weight: lighter;
+  padding: 0 2px 0 2px;
+}
+.read-more-2{
+  width: 90px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fbd803;
+  text-align: left;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  box-shadow: 0 7px 3px #d5d3d4;
+}
+/*Blog News 2 CSS Ends Here*/
+/*Blog News 3 CSS Starts Here*/
+.blog-news-3{
+  width: 270px;
+  height: 415px;
+  background-color: #ffffff;
+  margin: 12px;
+  position: relative;
+}
+
+.love-react{
+  color: #7b7a7a;
+  margin-left: 95px;
+}
+.love-react-100{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.comment{
+  color: #7b7a7a;
+  margin-left: 10px;
+}
+.comment-95{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.share{
+  color: #7b7a7a;
+  margin-left: 10px;
+}
+.share-134{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.blog-news-date3{
+  width: 70px;
+  height: 90px;
+  background-color: #000000;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 125px;
+  left: 10px;
+}
+.october-13th{
+  padding-top: 10px;
+}
+.toned-tummy-workout{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.toned-tummy-workout-description{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  letter-spacing: -1px;
+  line-height: 15.8px;
+  font-weight: lighter;
+  padding: 0 2px 0 2px;
+}
+.read-more-3{
+  width: 90px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fbd803;
+  text-align: left;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  box-shadow: 0 7px 3px #d5d3d4;
+}
+/*Blog News 3 CSS Ends Here*/
+/*Our 3 Blog News CSS Starts Here*/
+/*Our Blog News CSS Ends Here*/
+
+
+/*Our Feature Product Part CSS Starts Here*/
+.choose-your-one{
+  text-align: center;
+  color: #fbd803;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  word-spacing: 7px;
+}
+.our-feature-product{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  word-spacing: 7px;
+}
+/*Our Feature Product 3 box Container CSS Starts Here*/
+.total-3-product-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Product Container 1 CSS Starts Here*/
+.product-1{
+  width: 230px;
+  height: 450px;
+  margin: 13px;
+}
+.product-image{
+  border: 7px solid #fbd803;
+  border-radius: 10px;
+  box-shadow: 4px 8px 7px #b0acad;
+}
+.product-image1{
+  border-radius: 15px;
+}
+.product-description-1{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+.star-1, .star-2, .star-3, .star-4{
+  color: #fbd803;
+  font-size: 14px;
+
+}
+.star-5{
+  color: #9b9898;
+  font-size: 14px;
+}
+.star-container-1{
+  margin-left: 70px;
+}
+.product-inr{
+  font-size: 15px;
+  margin-left: 100px;
+}
+.product-amount{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.buy-now-btn-1{
+  text-align: center;
+}
+.buy-now-1{
+  width: 90px;
+  text-align: center;
+  background-color: #fbd803;
+  border: none;
+  outline: none;
+  border-radius: 13px;
+  padding: 10px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 0 7px 7px #d5d3d4;
+}
+/*Product Container 1 CSS Ends Here*/
+/*Product Container 2 CSS Starts Here*/
+.product-2{
+  width: 230px;
+  height: 450px;
+  margin: 13px;
+}
+.product-image-2{
+  border: 7px solid #fbd803;
+  border-radius: 10px;
+  box-shadow: 4px 8px 7px #b0acad;
+}
+.product-image2{
+  border-radius: 15px;
+}
+.product-description-2{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+.star-6, .star-7, .star-8, .star-9{
+  color: #fbd803;
+  font-size: 14px;
+
+}
+.star-10{
+  color: #9b9898;
+  font-size: 14px;
+}
+.star-container-2{
+  margin-left: 70px;
+}
+.product-inr-2{
+  font-size: 15px;
+  margin-left: 90px;
+}
+.product-amount-2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.buy-now-btn-2{
+  text-align: center;
+}
+.buy-now-2{
+  width: 90px;
+  text-align: center;
+  background-color: #fbd803;
+  border: none;
+  outline: none;
+  border-radius: 13px;
+  padding: 10px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+  box-shadow: 0 7px 7px #d5d3d4;
+}
+/*Product Container 2 CSS Ends Here*/
+/*Product Container 3 CSS Starts Here*/
+
+.product-3{
+  width: 230px;
+  height: 450px;
+  margin: 13px;
+}
+.product-image-3{
+  border: 7px solid #fbd803;
+  border-radius: 10px;
+  box-shadow: 4px 8px 7px #b0acad;
+}
+.product-image3{
+  border-radius: 15px;
+}
+.product-description-3{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+.star-11, .star-12, .star-13, .star-14{
+  color: #fbd803;
+  font-size: 14px;
+
+}
+.star-15{
+  color: #9b9898;
+  font-size: 14px;
+}
+.star-container-3{
+  margin-left: 70px;
+}
+.product-inr-3{
+  font-size: 15px;
+  margin-left: 90px;
+}
+.product-amount-3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.buy-now-btn-3{
+  text-align: center;
+}
+.buy-now-3{
+  width: 90px;
+  text-align: center;
+  background-color: #fbd803;
+  border: none;
+  outline: none;
+  border-radius: 13px;
+  padding: 10px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+  box-shadow: 0 7px 7px #d5d3d4;
+}
+/*Product Container 3 CSS Ends Here*/
+/*Our Feature Product 3 box Container CSS Ends Here*/
+/*Our Feature Product Part CSS Ends Here*/
+/*Banner Registration Part CSS Starts Here*/
+.banner-registration-part{
+  width: 100%;
+  height: 600px;
+  background-image: url('image/Artboard 7.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-size: cover;*/
+  padding-top: 70px;
+  position: relative;
+}
+.registration-offer{
+  width: 500px;
+  height: 380px;
+  /*background-color: lightgray;*/
+  position: absolute;
+  top: -190px;
+  bottom: 0;
+  right: 200px;
+  margin: auto;
+  padding-left: 10px;
+
+}
+
+.get-50-off-on-registration{
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+}
+
+.get-off{
+  color: #fbd803;
+}
+
+.till-october{
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 14px;
+  font-size: 25px;
+
+}
+.color{
+  color: #fbd803;
+}
+
+.join-now{
+  width: 150px;
+  height: 40px;
+  background-color: #fbd803;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*Banner Registration Part CSS Ends Here*/
+/*Client Testimonials Part CSS Starts Here*/
+.who-liked-us{
+  text-align: center;
+  color: #fbd803;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+.client-testimonials{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 5px;
+}
+/*First Client Testimonials CSS Starts Here*/
+.first-client-testimonials{
+  width: 550px;
+  margin: auto;
+  position: relative;
+
+}
+.client-image1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: -40px;
+}
+.client-image{
+  border-radius: 50%;
+  border: 5px solid #fbd803;
+}
+.testimonials-description{
+  width: 500px;
+  height: 170px;
+  background-color: #b9b4b4;
+  padding:20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 4px 7px 5px #d5d3d4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+
+}
+.client-name{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.designation1{
+  font-size: 12px;
+}
+.date-of-post{
+  display: block;
+  text-align: right;
+  margin-right: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.testimonial-description1{
+  padding: 3px 30px;
+}
+/*First Client Testimonials CSS Ends Here*/
+/*Second Client Testimonials CSS Starts Here*/
+.second-client-testimonials{
+  width: 550px;
+  margin: auto;
+  position: relative;
+}
+.client-image2{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+.client-image{
+  border-radius: 50%;
+  border: 5px solid #fbd803;
+}
+.testimonials-description{
+  width: 500px;
+  height: 170px;
+  background-color: #b9b4b4;
+  padding:20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 4px 7px 5px #d5d3d4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+
+}
+.client-name{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.designation1{
+  font-size: 12px;
+}
+.date-of-post{
+  display: block;
+  text-align: right;
+  margin-right: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.testimonial-description2{
+  padding: 3px 30px;
+}
+/*Second Client Testimonials CSS Ends Here*/
+/*Third Client Testimonials CSS Starts Here*/
+.third-client-testimonials{
+  width: 550px;
+  margin: auto;
+  position: relative;
+}
+.client-image3{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: -40px;
+}
+.client-image{
+  border-radius: 50%;
+  border: 5px solid #fbd803;
+}
+.testimonials-description{
+  width: 500px;
+  height: 170px;
+  background-color: #b9b4b4;
+  padding:20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 4px 7px 5px #d5d3d4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+
+}
+.client-name{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.designation1{
+  font-size: 12px;
+}
+.date-of-post{
+  display: block;
+  text-align: right;
+  margin-right: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.testimonial-description3{
+  padding: 3px 30px;
+}
+/*Third Client Testimonials CSS Ends Here*/
+/*Client Testimonials Part CSS Starts Here*/
+/*Our Gallery View CSS Starts Here*/
+.our-gallery-view-section{
+  width: 100%;
+  height: 750px;
+  background-image: url('image/gallery-view-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.gallery-view{
+  width: 1000px;
+  height: 600px;
+  /*background-color: #ffffff;*/
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-50%,-50%);
+}
+.gallery{
+  text-align: center;
+  color: #fbd803;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.our-gallery-view{
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+/*Our Gallery Main Container1 CSS Starts Here*/
+.our-gallery-main-container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-image-1{
+  width: 250px;
+  height: 150px;
+  margin: 25px;
+  /*border: 1px solid black;*/
+}
+.gallery-image-1:hover{
+  box-shadow: 1px 1px 4px #f6e26a;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+
+}
+.gallery-image-2{
+  width: 250px;
+  height: 150px;
+  margin: 25px;
+  /*border: 1px solid black;*/
+}
+.gallery-image-2:hover{
+  box-shadow: 1px 1px 4px #f6e26a;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+.gallery-image-3{
+  width: 250px;
+  height: 150px;
+  margin: 25px;
+  /*border: 1px solid black;*/
+}
+.gallery-image-3:hover{
+  box-shadow: 1px 1px 4px #f6e26a;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+/*Our Gallery Main Container1 CSS Starts Here*/
+
+/*Our Gallery Main Container2 CSS Starts Here*/
+.our-gallery-main-container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-image-4{
+  width: 250px;
+  height: 150px;
+  margin: 25px;
+  /*border: 1px solid black;*/
+}
+.gallery-image-4:hover{
+  box-shadow: 1px 1px 4px #f6e26a;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+.gallery-image-5{
+  width: 250px;
+  height: 150px;
+  margin: 25px;
+  /*border: 1px solid black;*/
+}
+.gallery-image-5:hover{
+  box-shadow: 1px 1px 4px #f6e26a;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+.gallery-image-6{
+  width: 250px;
+  height: 150px;
+  margin: 25px;
+  /*border: 1px solid black;*/
+}
+.gallery-image-6:hover{
+  box-shadow: 1px 1px 4px #f6e26a;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+/*Gallery View Button CSS Starts Here*/
+.view-more-btn-1{
+  text-align: center;
+}
+.view-more1{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #fbd803;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+/*Gallery View Button CSS Ends Here*/
+/*Our Gallery Main Container2 CSS Starts Here*/
+/*Our Gallery View CSS Starts Here*/
+/*Our Sponsor Part CSS Starts Here*/
+.our-sponsor-part-section{
+  width: 100%;
+  height: 320px;
+  /*background-color: lightgray;*/
+}
+/*Our 6 Sponsorer HTML Starts Here*/
+.our-sponsor-part-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Sponsor Company 1 CSS Starts Here*/
+.sponsorer-company-1{
+  width: 250px;
+  height: 120px;
+  /*background-color: lightcyan;*/
+  margin: 10px;
+}
+/*Sponsor Company 1 CSS Ends Here*/
+/*Sponsor Company 2 CSS Starts Here*/
+.sponsorer-company-2{
+  width: 250px;
+  height: 120px;
+  /*background-color: lightcyan;*/
+  margin: 10px;
+}
+/*Sponsor Company 2 CSS Ends Here*/
+/*Sponsor Company 3 CSS Starts Here*/
+.sponsorer-company-3{
+  width: 250px;
+  height: 120px;
+  /*background-color: lightcyan;*/
+  margin: 10px;
+}
+/*Sponsor Company 3 CSS Ends Here*/
+/*Sponsor Company 4 CSS Starts Here*/
+.sponsorer-company-4{
+  width: 250px;
+  height: 120px;
+  /*background-color: lightcyan;*/
+  margin: 10px;
+}
+/*Sponsor Company 4 CSS Ends Here*/
+.our-sponsor-part-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Sponsor Company 5 CSS Starts Here*/
+.sponsorer-company-5{
+  width: 250px;
+  height: 120px;
+  /*background-color: lightcyan;*/
+  margin: 10px;
+}
+/*Sponsor Company 5 CSS Ends Here*/
+/*Sponsor Company 6 CSS Starts Here*/
+.sponsorer-company-6{
+  width: 250px;
+  height: 120px;
+  /*background-color: lightcyan;*/
+  margin: 10px;
+}
+/*Sponsor Company 6 CSS Ends Here*/
+/*Sponsor Company 7 CSS Starts Here*/
+.sponsorer-company-7{
+  width: 250px;
+  height: 120px;
+  /*background-color: lightcyan;*/
+  margin: 10px;
+}
+/*Sponsor Company 7 CSS Ends Here*/
+/*Sponsor Company 8 CSS Starts Here*/
+.sponsorer-company-8{
+  width: 250px;
+  height: 120px;
+  /*background-color: lightcyan;*/
+  margin: 10px;
+}
+/*Sponsor Company 8 CSS Ends Here*/
+/*Our 6 Sponsorer HTML Starts Here*/
+/*Our Sponsor Part CSS Ends Here*/
+/*Xtreme Fitness Footer Part CSS Starts Here*/
+.xtreme-fitness-google-map-part-and-footer-part{
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+.google-map-part{
+  width: 100%;
+  height: 450px;
+}
+.google-map{
+  width: 100%;
+  height: 450px;
+
+}
+.contact-form-part{
+  position: absolute;
+  right: 80px;
+  top: 150px;
+}
+.contact-form-1{
+  width: 300px;
+  height: 400px;
+  background-image: url('image/Webp.net-compress-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  padding: 5px 10px;
+}
+.from-control{
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #ffffff;
+  background: transparent;
+  color: #fbd803;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.message1{
+  resize: none;
+
+}
+.form-submit{
+  text-align: center;
+}
+.submit{
+  width: 90px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  background-color: #fbd803;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.contact-us{
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+.name, .phone, .message, .email{
+  margin-left: 30px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+/*Xtreme Fitness Footer CSS Starts Here*/
+.footer{
+  width: 100%;
+  height: 570px;
+  background-color: #0c0d10;
+
+}
+.container-footer{
+  width: 1100px;
+  height: 400px;
+  background-color: #0c0d10;
+  margin-left: 130px;
+  position: relative;
+}
+.company-logo{
+  width: 130px;
+  height: 130px;
+}
+.company-description{
+  width: 370px;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  word-spacing: 2px;
+  color: #ffffff;
+}
+.company-mail-location-phone{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 100px;
+}
+
+.fa-map-marker-alt,
+.fa-phone-alt,
+.fa-envelope{
+  color: #fbd803;
+}
+.location,
+.phone2,
+.mail{
+  font-size: 13px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+.phone2{
+  padding: 0;
+  margin: 0;
+}
+.join-with-us{
+  width: 320px;
+  height: 150px;
+  position: absolute;
+  right: 10px;
+  top: 180px;
+}
+.join{
+  color: #fbd803;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  word-spacing: 3px;
+}
+.thanks-for-visiting{
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.email2{
+  width: 210px;
+  height: 27px;
+  border: none;
+  outline: none;
+  border-radius: 15px 0 0 15px;
+  padding: 0 4px;
+
+}
+input[type=email2]{
+  background-image: url('image/mail1-01.png');
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  background-size: 17px 17px;
+  padding-left: 26px;
+  position: relative;
+}
+.subscribe{
+  border-radius:15px;
+  border: none;
+  outline: none;
+  width: 75px;
+  height: 27px;
+  cursor: pointer;
+  background-color: #fbd803;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  left: -50px;
+}
+.email-list{
+  width: 370px;
+  height: 50px;
+  position: absolute;
+  bottom: 30px;
+  right: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+}
+.this-site-is-protected{
+  text-align: center;
+
+}
+.privacy-policy{
+  color: #fbd803;
+  text-decoration: none;
+
+}
+.privacy-policy:hover{
+  text-decoration: underline;
+}
+.terms-service{
+  color: #fbd803;
+  text-decoration: none;
+}
+.terms-service:hover{
+  text-decoration: underline;
+}
+input[type=checkbox]{
+  border: none;
+  outline: none;
+  background-color: #000000;
+  color: #fbd803;
+}
+
+input[type=checkbox]:hover{
+  box-shadow:1px 1px 4px #fbd803;
+}
+.our-media-platform{
+  width: 250px;
+}
+.our-media-platform{
+  position: absolute;
+  top: 55px;
+  right:40px;
+}
+.our-media-platform
+.fab{
+  margin-right: 24px;
+  font-size: 40px;
+  color: #fbd803;
+}
+
+.our-media-platform .fa-facebook-square:hover{
+  color: #1877F2;
+  transition: color 0.8s;
+}
+.our-media-platform .fa-google-plus-square:hover{
+  color: #DA4936;
+  transition: color 0.8s;
+}
+.our-media-platform .fa-twitter-square:hover{
+  color: #01AAED;
+  transition: color 0.8s;
+}
+.our-media-platform .fa-youtube-square:hover{
+  color: #C0171C;
+  transition: color 0.8s;
+}
+/*Xtreme Fitness Copy-right Section CSS Starts Here*/
+.copy-right-section{
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background-color:#0c0d10;
+  padding: 15px 15px;
+  color: #fbd803;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+/*Xtreme Fitness Copy-right Section CSS Ends Here*/
+/*Xtreme Fitness Footer Part CSS Ends Here*/
+
+/*Download Our app CSS Style Starts Here*/
+.download-our-app{
+  width:120px;
+  height: 125px;
+  background-color: #fbd803;
+  box-shadow: 0 2px 2px lightgray;
+  position: fixed;
+  right: 6px;
+  bottom: 10px;
+  padding: 5px 5px;
+
+}
+.app-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.download-app-section{
+  text-align: center;
+
+}
+.fa-download{
+  font-size: 10px;
+}
+.download-app-now{
+  width: 110px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 4px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  border: 1px solid #000000;
+  font-size: 10px;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
+.download-app-now:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: background-color 0.6s;
+}
+/*Download Our app CSS Style Ends Here*/
+/*Left Side Top Arrow CSS Starts Here*/
+.left-side-top-arrow{
+width: 50px;
+height: 50px;
+
+  background-color: #fbd803;
+  position: fixed;
+  left: 20px;
+  bottom: 80px;
+}
+.top-arrow{
+  color: #000000;
+  font-size: 30px;
+  font-weight:normal;
+  display: block;
+  text-align: center;
+  padding: 6px 10px;
+  margin-top: 4px;
+}
+.fa-chevron-up{
+  text-align: center;
+}
+/*Left Side Top Arrow CSS Starts Here*/
+/*Left Side Bottom Arrow CSS Starts Here*/
+.left-side-bottom-arrow{
+  width: 50px;
+  height: 50px;
+  background-color: #fbd803;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+.bottom-arrow{
+  color: #000000;
+  font-size: 30px;
+  font-weight:normal;
+  display: block;
+  text-align: center;
+  padding: 6px 10px;
+  margin-top: 4px;
+}
+.fa-chevron-down{
+  text-align: center;
+}
+/*Left Side Bottom Arrow CSS Ends Here*/
